@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px ;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .container{
+            height: 600px;
+            width: 800px;
+            display: flex;
+            margin: auto;
+            margin-top: auto;
+            justify-content: center;
+            background-color: yellow;
+            position: relative;
+        }
+        .box2{
+            height: 200px;
+            width: 200px;
+            background-color: red;
+            position: absolute;
+            right: 0px;
+            bottom: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box2"></div>
+    </div>
+    
+</body>
+</html>
